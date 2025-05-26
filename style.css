@@ -1,0 +1,836 @@
+/* -------------------------------------- */
+/* colors rgb and hex
+h1 { 
+color: reb(255,0,0);
+}
+h1 {
+    color: #00ff00;
+} */
+
+
+
+/* -------------------------------------- */
+/* Selectors */
+/* Universal selectors 
+* { 
+    color: pink;
+} 
+/* Element selectors 
+h1 {
+    color: rgb(130, 65, 65);
+} */
+
+
+/* ----------------------------------------- */
+/* id selectors 
+#headingone {
+    color: blueviolet;
+}
+
+#headingtwo {
+    color: chartreuse;
+} */
+
+
+/* ------------------------------------------- */
+/* class selectors 
+.myclass {
+    color: lightseagreen;
+} 
+    */
+
+
+/* ------------------------------------------- */
+    /* text property  
+    p {
+        text-align: right;
+    }
+    h2 {
+        text-align: center;
+        text-decoration:overline ;
+    } */
+
+
+
+/* ------------------------------------------- */
+    /* font weight property 
+    #h1 {
+        font-weight: normal;
+    }
+    #h2 {
+        font-weight: bold;
+    }
+    #h3 {
+        font-weight: bolder;
+    }
+    #h4 {
+        font-weight: lighter;
+    } */
+
+
+
+/* ------------------------------------------- */
+    /* font family */
+
+    /* font family 
+    #one {
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #two {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } */
+
+
+
+/* ------------------------------------------- */
+    /* unit in css (px) 
+#p1 {
+    font-size: 25px;
+}
+ #p2 {
+    font-size: 50px;
+ }
+
+ #p3 {
+    font-size: 10px;
+ } */
+
+
+
+/* ------------------------------------------- */
+ /* line hight property (px) 
+ #p1 {
+    line-height: 50px;
+ }
+
+ #p2 {
+    line-height: normal;
+ } */
+
+
+
+ /* ------------------------------------------- */
+ /* text transform property */
+
+ /* text trasformation property 
+ #p1 {
+    text-transform: uppercase;
+ }
+ #p2 {
+    text-transform: lowercase;
+ }
+ #p3 {
+    text-transform: capitalize;
+ } */
+
+
+
+
+ /* ------------------------------------------- */
+ /* box model css (Height , width & border style , color , width , )
+ div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+ }
+ h1 {
+    height: 50px;
+    width: 300px;
+    background-color: brown;
+    border-style: dashed ;
+    border-width: 5px;
+    border-color: yellow;
+    text-align: center;
+ }
+ h2 {
+    background-color: blueviolet;
+    width: 100;
+    height: 50px;
+    text-align: center;
+    border: 20px solid yellow;
+ }*/
+
+
+
+
+ /* ------------------------------------------- */
+ /* border radius 
+ h3 {
+    background-color: brown;
+    border-style: dotted;
+    border-radius: 20px;
+ }
+ #div1 {
+    height: 10pxpx;
+    width: 100px;
+    background-color: rgb(183, 194, 132);
+    border-radius: 50%;
+ } */
+
+
+
+
+
+ /* ------------------------------------------- */
+  /*padding all sides 
+ #div1 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(189, 41, 41);
+    border-style: solid;
+    padding-left: 50px;
+ }
+ #div2 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(189, 41, 41);
+    border-style: solid;
+    padding-right: 50px;
+ }
+ #div3 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(189, 41, 41);
+    border-style: solid;
+    padding-top: 100px;
+ }
+ #div4 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(189, 41, 41);
+    border-style: solid;
+    padding-bottom: 50px;
+ }
+ #div5 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(189, 41, 41);
+    border-style: solid;
+    padding: 50px;
+ }  */
+
+
+
+
+
+ /* ------------------------------------------- */
+ /* margin property 
+ #div1 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(170, 223, 64);
+    border-style: solid;
+    margin-left: 20px;
+ }
+ #div2 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(170, 223, 64);
+    border-style: solid;
+    margin-right: 20px;
+ }
+ #div3 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(170, 223, 64);
+    border-style: solid;
+    margin-top: 50px;
+ }
+ #div4 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(170, 223, 64);
+    border-style: solid;
+    margin-bottom: 50px;
+ } */
+
+
+
+
+ /* ------------------------------------------- */
+/* Assignment question 
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+} */
+
+
+
+/* ------------------------------------------- */
+/* navbar question 
+* {
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+
+}
+button {
+    color: yellow;
+    background-color: brown;
+}
+
+#logo {
+    color: brown;
+    font-size: 25px;
+}
+a {
+    margin: 200px;
+    text-decoration: none;
+} */
+
+
+
+/* ------------------------------------------- */
+/* display property , inline , block , inline-block , none 
+div {
+    background-color: aqua;
+    display: inline;
+}
+button {
+    display: block;
+}
+#b1 {
+    display: none;
+} */
+
+
+
+/* --------------------------------------------- */
+/* Alpha channel (RGBA) 
+div {
+    background-color: rgba(255,0, 0, 0.4);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#div1 {
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#div2 {
+    background-color: rgba(0, 0, 255, 0.7);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#div3 {
+    background-color: rgba(0, 0, 255, 0.9);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+} */
+
+
+
+/* ------------------------------------------- */
+
+/* assignment question 
+* {
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+
+}
+button {
+    color: yellow;
+    background-color: brown;
+}
+
+#logo {
+    margin-left: 2px;
+    color: brown;
+    font-size: 25px;
+}
+a {
+    margin: 200px;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+input {
+    margin-left: 550px;
+}
+
+.content {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    display:inline-block;
+}
+
+#maindiv {
+    height: 500px;
+}
+footer {
+    color: rgb(244, 89, 17);
+    background-color: #0f1111;
+    text-align: center;
+} */
+
+
+
+
+/* ------------------------------------------------ */
+/* unit in css (% , em , rem ) 
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: green ;
+    font-size: 10px;
+}
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: brown;
+    margin: 10px;
+    width: 5rem;
+    font-size: 2em;
+} */
+
+
+
+
+/* ----------------------------------------------- */
+/* Position Property ( Static, relative , absolute , fixed )
+div {
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    position: static;
+}
+
+#box2 {
+    position: relative;
+    top:10px;
+    left:10px;
+    z-index: 1;
+    
+}
+
+#box3 {
+    position: absolute;
+    top: 10px;
+
+}
+
+#box4 {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+} */
+
+
+
+/* ------------------------------------------------- */
+
+/* body { 
+    background-image: url(Tiger.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2; 
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+
+#box1 {
+    background-image: url(Tiger.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+#box2 {
+    background-image: url(Tiger.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box3 {
+    background-image: url(Tiger.jpg);
+    background-size: auto;
+    
+} */
+
+
+
+/* ------------------------------------------------------- */
+/* Assignment Question */
+/* Question 1 */
+/* #div1 { 
+    height: 100px;
+    width: 200px;
+    background-image: url(bird.jpg);
+    background-size: cover;
+} */
+
+
+/* question 2 */
+/* div { 
+    height: 100px;
+    width: 200px;
+    background-image: url(bird.jpg);
+    background-size: cover;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+} */
+
+
+
+
+/* --------------------------------------------------------- */
+/* FlexBox direction (row, row-reverse, column, column-reverse )*/
+
+/*body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black ;
+}
+
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: blue;
+}
+
+#box3 {
+    background-color: green;
+}
+
+#box4 {
+    background-color: red;
+}
+
+#box5 {
+    background-color: yellow;
+} */
+
+
+
+/* -------------------------------------------------- */
+/* FlexBox property , flexbox direction , ( flex-start, flex-end, center, space-between, space-around, space-evenly ) */
+ /* body {  
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black ;
+}
+
+#container {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: :flex-start;
+    align-content: center;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: blue;
+    height:200px ;
+    flex-shrink: 2;
+    
+}
+
+#box3 {
+    background-color: green;
+    height: 75px;
+}
+
+#box4 {
+    background-color: red;
+}
+
+#box5 {
+    background-color: yellow;
+} */
+
+
+
+
+/* ---------------------------------------------------- */
+ /* navbar using list by using flexbox  */
+ /* .navbar {  
+    background-color: blanchedalmond;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}  */
+
+
+
+
+/* ------------------------------------------------------- */
+/* media Quaries */
+/* div { 
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+}
+
+@media (width : 600px) {
+    div {
+        background-color: brown;
+    }
+}
+
+@media (min-width: 600px) {
+    div {
+        background-color: blue;
+    }
+}
+
+@media (max-width: 500px) {
+    div {
+        background-color: rgb(215, 209, 36);
+    }
+}
+
+@media (min-width :200px) and (max-width:300px) {
+    div {
+        background-color: cadetblue;
+    }
+} */
+
+
+
+
+/* ---------------------------------------------------------- */
+/* assigment questions */
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+@media (max-width:300px) {
+    div {
+        background-color: chartreuse;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px){
+    div {
+        background-color: pink;
+    }
+}
+
+@media (min-width:600px) {
+    div {
+        background-color: blue;
+    }
+} */
+
+
+
+
+/* ---------------------------------------------------------- */
+/* Transition */
+/* div {  
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 2s; 
+    transition: all 2s steps(4) 1s; #shorthand 
+    
+}
+
+div:hover {
+    background-color: brown;
+    color: wheat;
+    font-size: 20px;
+}
+
+div:active {
+    background-color: burlywood;
+} */
+
+
+
+/* ---------------------------------------------------- */
+/* CSS Transform (rotate , scale , translate ,skew */
+/* div { 
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transition-property: all;
+    transition-duration: 2s;
+     transition-timing-function: steps(3); 
+    transition-delay: 1s; 
+    transition: all 2s steps(4) 1s;  
+    transform: rotate(45deg);  #for rotate 
+     transform: scale(1, 2); #for scale 
+    
+}
+
+div:hover {
+    background-color: brown;
+    color: wheat;
+    font-size: 20px;
+    transform: scale(1, 2); #for scale
+    transform: rotate(45deg);for roate 
+    transform: translate(200px); #for translate 
+    transform: translate(100px , 80px); #for translate 
+    transform: skew(50deg);
+
+
+}
+
+div:active {
+    background-color: burlywood;
+} */
+
+
+
+/* ------------------------------------------- */
+/* Animation also properties ( animation-name and duration , timing function, delay , iteration-count, direction, % in animation*/
+/* div { 
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    animation-name: coloranimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in; 
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; 
+}
+
+ @keyframes coloranimate {
+    from { background-color: blueviolet;}
+    to { background-color: red;}
+}  */
+
+/* for move element 
+@keyframes coloranimate {
+    from { left: 0px;}
+    to { left: 200px;}
+} */
+
+
+/* for %animation 
+@keyframes coloranimate {
+   0% {
+    left: 0px;
+    background-color: aqua;
+   }
+   50% {
+    background-color: blue;
+   }
+   100% {
+    left: 200px;
+    background-color: brown;
+    color: white;
+   }
+} */
+
+
+
+
+/* ---------------------------------------------------- */
+/* Assignment question */
+/* create a loader */
+/* .loader { 
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border: 20px solid yellow;
+    border-top: 20px solid #4ECDC4;
+    animation: spinanimate 3s ease-in 0s infinite normal;
+
+    
+}
+@keyframes spinanimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+
+
